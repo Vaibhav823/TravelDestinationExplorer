@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('images/istockphoto-489556478-612x612.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#filters {
+  margin: 20px auto;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#filters label {
+  font-weight: bold;
+  color: #333;
+}
+
+#filters select,
+#filters button {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#filters button {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#filters button:hover {
+  background-color: #444;
+}
+
+#results {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.destination {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.destination h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.destination p {
+  margin: 5px 0;
+  color: #555;
+}
+
+footer {
+  margin-top: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

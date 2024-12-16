@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Destination Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon (1).ico">
+</head>
+
+<body>
+  <header>
+    <h1>Travel Destination Explorer</h1>
+  </header>
+  <main>
+    <section id="filters">
+      <label for="continent">Continent</label>
+      <select id="continent">
+        <option value="">All</option>
+        <option value="AF">Africa</option>
+        <option value="AS">Asia</option>
+        <option value="EU">Europe</option>
+        <option value="NA">North America</option>
+        <option value="SA">South America</option>
+        <option value="OC">Oceania</option>
+      </select>
+      <label for="type">Type</label>
+      <select id="type">
+        <option value="">All</option>
+        <option value="beach">Beach</option>
+        <option value="adventure">Adventure</option>
+        <option value="culture">Culture</option>
+      </select>
+      <label for="budget">Budget</label>
+      <select id="budget">
+        <option value="">Any</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="filterButton">Search</button>
+    </section>
+    <section id="results"></section>
+  </main>
+  <footer>
+    <p>Discover your next adventure!</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
